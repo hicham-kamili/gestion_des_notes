@@ -1,5 +1,7 @@
 package gestion_des_notes;
 
+import aiac.gi18.java.complexe.Complexe;
+
 public class Etudiant {
 	private int id ;
 	private String nom ;
@@ -10,6 +12,12 @@ public class Etudiant {
 		this.note = 10;
 		
 	}
+	public String toString()
+	{
+		return this.nom+ " + i"+this.note;
+	}
+	
+
 
 
 }
