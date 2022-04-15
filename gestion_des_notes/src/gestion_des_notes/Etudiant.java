@@ -24,7 +24,7 @@ public class Etudiant {
 	return	((Etudiant)obj).id==this.id ;
 	}
 	@Override
-	public int compareTo(Complexe o) {
+	public int compareTo(Etudiant o) {
 		
 		if(this.note==o.note) return 0;
 		if(this.note>o.note) return 1;
