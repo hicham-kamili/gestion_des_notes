@@ -4,9 +4,9 @@ public class Etudiant {
 	private int id ;
 	private String nom ;
 	private double note ;
-	Etudiant(int i_d, String n_om, double n_ote){
-		this.id = i_d;
-		this.nom = n_om;
+	Etudiant(int id, String nom, double note){
+		this.id = id;
+		this.nom = nom;
 		this.note = 10;
 		
 	}
